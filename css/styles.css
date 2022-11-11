@@ -6,3 +6,24 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+
+/* First Container */
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.hero-block {
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
