@@ -43,8 +43,18 @@ html {
 .header-links li a {
     text-decoration: none;
     color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
 }
 
+.header-links a:hover {
+    background-color: rgb(23, 146, 105);
+    
+}
+
+.header-links a:active {
+    background-color: rgb(95, 187, 8);
+}
 
 .hero-block {
     display: flex;
