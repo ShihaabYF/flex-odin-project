@@ -62,11 +62,18 @@ html {
     background-color: rgb(95, 187, 8);
 }
 
+/* Hero-block code */
 .hero-block {
     display: flex;
 }
 
+/* Hero-text */
 .hero-text {
     display: flex;
     flex-direction: column;
+}
+
+.hero-text .hero-title {
+    font-size: 50px;
+    font-weight: bolder;
 }
