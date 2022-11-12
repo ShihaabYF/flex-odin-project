@@ -42,6 +42,7 @@ html {
 
 .header-links li {
     list-style-type: none;
+    font-weight: bold;
 }
 
 .header-links li a {
