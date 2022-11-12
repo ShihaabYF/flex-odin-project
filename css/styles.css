@@ -15,6 +15,7 @@ html {
     flex-direction: column;
     background-color: rgb(33, 33, 88);
     color: white;
+    padding: 0 150px;
 }
 
 /* Header code */
@@ -22,14 +23,21 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .header-links {
     display: flex;
+    column-gap: 20px;
 }
 
 .header-links li {
     list-style-type: none;
+}
+
+.header-links li a {
+    text-decoration: none;
+    color: white;
 }
 
 
