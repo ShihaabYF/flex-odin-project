@@ -19,7 +19,7 @@ html {
     flex-direction: column;
     background-color: rgb(33, 33, 88);
     color: white;
-    padding: 0 150px;
+    padding: 0 100px 100px;
     row-gap: 80px;
 }
 
@@ -65,15 +65,35 @@ html {
 /* Hero-block code */
 .hero-block {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Hero-text */
 .hero-text {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 
 .hero-text .hero-title {
     font-size: 50px;
     font-weight: bolder;
+    flex: 1 1 auto;
+}
+
+/* Hero-img */
+
+.hero-img {
+    width: 1500px;
+    /* max-height: 1000px; */
+    flex: 1 1 auto;
+    display: flex;
+    border: 5px solid rgba(255, 255, 255, 0.158);
+}
+.hero-img img {
+    max-width: 100%;
+    height:min-content;
+    flex: 1 1 0;
+    
 }
