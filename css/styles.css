@@ -157,10 +157,6 @@ html {
     border-radius: 10px;
 
 }
-.images img:hover {
-    /* width: 265px; */
-    margin-bottom: 20px;
-}
 .second-container p {
     font-family: monospace;
     text-align: center;
