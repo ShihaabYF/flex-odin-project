@@ -169,3 +169,32 @@ html {
     font-weight: bolder;
 
 }
+
+/* Third-container */
+.third-container {
+    display: flex;
+    justify-content: center;
+    row-gap: 10px;
+    background-color: rgba(223, 223, 223, 0.425);
+    padding: 80px;
+}
+
+.third-container .sub-container {
+    /* background-color: antiquewhite; for debugging only */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.third-container .sub-container .quote {
+    font-family: monospace;
+    font-size: large;
+}
+
+
+.third-container .sub-container .author {
+    align-self: flex-end;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+}
