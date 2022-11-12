@@ -7,6 +7,10 @@ html {
     box-sizing: inherit;
 }
 
+*{
+    font-family: monospace;
+    font-size: 14px;
+}
 
 /* First Container */
 
@@ -27,13 +31,13 @@ html {
 }
 
 .header-logo {
-    font-size: large;
+    font-size: x-large;
     font-weight: bolder;
 }
 
 .header-links {
     display: flex;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 .header-links li {
