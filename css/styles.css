@@ -22,14 +22,15 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    color:whi
 }
 
 .header-links {
     display: flex;
 }
 
+.header-links li {
+    list-style-type: none;
+}
 
 
 .hero-block {
