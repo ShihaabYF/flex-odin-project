@@ -84,6 +84,25 @@ html {
     flex: 1 1 auto;
 }
 
+.hero-block button {
+    background-color: rgb(30, 153, 224);
+    color: white;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    width: max-content;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.hero-block button:hover {
+    border: 2px white solid;
+}
+
+.hero-block button:active {
+    border: 2px rgb(0, 0, 0) solid;
+}
+
 /* Hero-img */
 
 .hero-img {
@@ -97,4 +116,32 @@ html {
     height:min-content;
     flex: 1 1 0;
     
+}
+
+
+
+/* Second Container */
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-container .images {
+    display: flex;
+}
+
+.images div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 100%;
+}
+
+.second-container p {
+    font-family: monospace;
 }
