@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     background-color: rgb(33, 33, 88);
     color: white;
-    padding: 0 100px 100px;
+    padding: 10px 100px 100px;
     row-gap: 80px;
 }
 
