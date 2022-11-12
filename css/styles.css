@@ -26,6 +26,11 @@ html {
     
 }
 
+.header-logo {
+    font-size: large;
+    font-weight: bolder;
+}
+
 .header-links {
     display: flex;
     column-gap: 20px;
