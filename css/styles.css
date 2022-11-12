@@ -15,9 +15,18 @@ html {
     flex-direction: column;
 }
 
+/* Header code */
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-links {
+    display: flex;
+}
+
+
 
 .hero-block {
     display: flex;
