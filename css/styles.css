@@ -121,25 +121,38 @@ html {
 
 
 /* Second Container */
-.second-container {
+.second-container{
+    display: flex;
+    justify-content: center;
+}
+.second-container .sub-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: aquamarine;   /*debugging only*/
+    margin: 0 4px; /*debugging only*/
+    width: 1200px;
+    flex-grow: 0;
+
 }
 
 .second-container .images {
     display: flex;
+    column-gap: 10px;
 }
 
 .images div {
-    width: 200px;
+    /* width: 140px; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 1 1 auto;
+    border: 2px solid black;
 }
 
 .images img {
     width: 100%;
+
 }
 
 .second-container p {
