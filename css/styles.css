@@ -13,6 +13,7 @@ html {
 .first-container {
     display: flex;
     flex-direction: column;
+    background-color: rgb(33, 33, 88);
 }
 
 /* Header code */
