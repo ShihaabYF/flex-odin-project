@@ -67,6 +67,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 15px;
 }
 
 /* Hero-text */
@@ -86,13 +87,12 @@ html {
 
 .hero-img {
     width: 1500px;
-    /* max-height: 1000px; */
     flex: 1 1 auto;
     display: flex;
     border: 5px solid rgba(255, 255, 255, 0.158);
 }
 .hero-img img {
-    max-width: 100%;
+    width: 100%;
     height:min-content;
     flex: 1 1 0;
     
