@@ -198,3 +198,45 @@ html {
     font-size: x-large;
     font-weight: bold;
 }
+
+/*Fourth-container*/
+.fourth-container {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.fourth-container .sub-container{
+    display: flex;
+    flex-grow: 1;
+    /* column-gap: 80px; */
+    padding: 30px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(17, 108, 245, 0.863);
+    border-radius: 10px;
+}
+
+.fourth-container .left {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fourth-container .left .call {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.fourth-container .right button {
+    background-color: rgba(17, 108, 245, 0.863);
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.fourth-container .right a {
+    text-decoration: none;
+    color: white;
+}
