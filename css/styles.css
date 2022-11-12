@@ -129,10 +129,12 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aquamarine;   /*debugging only*/
-    margin: 0 4px; /*debugging only*/
+    /* background-color: aquamarine;   debugging only */
     width: 1200px;
     flex-grow: 0;
+    padding: 60px 80px;
+    row-gap: 40px;
+
 
 }
 
@@ -147,15 +149,27 @@ html {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1 1 auto;
-    border: 2px solid black;
+    /* border: 2px solid black; debugging only */
 }
 
 .images img {
     width: 100%;
+    border-radius: 10px;
 
 }
-
+.images img:hover {
+    /* width: 265px; */
+    margin-bottom: 20px;
+}
 .second-container p {
     font-family: monospace;
     text-align: center;
+}
+
+
+.sub-container .title {
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bolder;
+
 }
