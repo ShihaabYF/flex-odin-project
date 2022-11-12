@@ -75,6 +75,7 @@ html {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
+    row-gap: 10px;
 }
 
 .hero-text .hero-title {
