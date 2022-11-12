@@ -4,6 +4,8 @@ This is my first complete flex box project; first meaningful project I main (:
 I am really looking forward for this project, and I'm so excited about it, since I learned a lot lately, and YaaY: it is the time to make something out of it!
 
 
+a note after finishing the project:
+Even though the projects done  as expected: --soo close to the template-task provided by The Odin Project--, I'm not satisfied with it for one reason: the commit messages, they were most of the time meaningless, I tried to follow the "atomic commit rule", but I failed, it's either trivial or have too much in it, I'll try to fix that in the next flex-project, and figure out how to make the commits meaningful and organized as they should!
 
 
 all the picture that I use are token from Unsplash:
