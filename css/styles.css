@@ -41,7 +41,7 @@ body {
 
 .header-links {
     display: flex;
-    column-gap: 10px;
+    column-gap: 15px;
 }
 
 .header-links li {
@@ -57,12 +57,13 @@ body {
 }
 
 .header-links a:hover {
-    background-color: rgb(23, 146, 105);
+    background-color: rgb(255, 255, 255);
+    color: black;
     
 }
 
 .header-links a:active {
-    background-color: rgb(95, 187, 8);
+    background-color: rgb(255, 237, 138);
 }
 
 /* Hero-block code */
