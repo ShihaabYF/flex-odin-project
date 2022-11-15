@@ -238,21 +238,18 @@ body {
     font-weight: bolder;
 }
 
-.fourth-container .right button {
+.fourth-container .right a {
     background-color: rgba(70, 187, 255, 0.952);
-    border: 2px white solid;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 4px 20px;
 }
 
-.fourth-container .right button:hover {
-    border: 3px white solid;
-
-}
-.fourth-container .right a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+.fourth-container .right a:hover {
+    background-color: white;
+    color: black;
 }
 
 /* footer */
