@@ -16,3 +16,8 @@ all the picture that I use are token from Unsplash:
     5-https://unsplash.com/photos/Or_QJs9fDHs by Jiawei Zhao
 
 Special thanks to Jerry Wang and Jiawei Zhao for providing us with these incredible photos.
+
+
+The flower icon is by : https://www.flaticon.com/authors/eucalyp
+    direct link:
+    https://www.flaticon.com/free-icon/flower-bouquet_4098389?term=flower&related_id=4098389
